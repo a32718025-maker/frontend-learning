@@ -1,0 +1,95 @@
+/*selectors*/
+h1{
+    color:#b92b27;
+}
+
+/*id*/
+#login{
+    background-color:white;
+}
+#signup{
+    background-color:#b92b27;
+    color: white;
+}
+
+/*class*/
+.upvote{
+    background-color:antiquewhite;
+}
+/*.follow{
+color:rgb(112, 112, 250);
+}
+
+descendent selector -a basic way
+p a{
+    color:rgb(112, 112, 250);
+}
+*/
+
+/* descendet selector by class*/
+.post a{
+    color:rgb(119, 209, 250);
+}
+nav ul li{
+    color:rgb(255, 0, 234);
+}
+nav ul li a{
+    color:red;
+}
+
+/*combinators*/
+p+h3{
+    text-decoration:underline;
+}
+.upvote+button{
+    color:black;
+    background-color:rgb(21, 240, 247)
+}
+div > input{
+    background-color:darkgray;
+    color: blue;
+}
+input[type="text"] {
+    color:green;
+}
+input[type="password"] {
+    color:red;
+}
+input[type]{
+    background-color: azure;
+
+}
+button:hover{/*specificity means on some button this was not be applied bcz they are set by classes and id*/
+    background-color:black;
+    color:white;
+}
+h3:hover{
+    text-decoration:overline;
+}
+button:active{
+    background-color:pink;
+    color:blueviolet;
+}
+input[type="radio"]:checked +label {
+color: red;           
+font-weight:bold;
+}
+.post:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+h1::first-letter{
+    color:black;
+}
+p::first-line{
+    color:blue;
+}
+
+p::selection{
+    background-color:rgb(192, 22, 135);
+}
+
+
+
+
+
+

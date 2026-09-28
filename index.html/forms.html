@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/action">
+
+        <label>
+        Username
+        <input type="text" placeholder="enter name"/>
+        </label>
+        <br>
+
+        <label>
+        Password
+        <input type="password" placeholder="enter password">
+        </label>
+        <br>
+
+        <label>
+        Number
+        <input type="number">
+        </label>
+        <br>
+
+        <label>
+            Time
+            <input type="time">
+        </label>
+        <br>
+
+        <label>
+        Colour
+        <input type="colour">
+        </label>
+        <br>
+
+
+        </form>
+
+
+
+<hr>
+
+<form action="/server">
+
+
+        <!-- label-- classical approach-->
+
+        <div>
+            <label for="username"> Enter your username :</label>
+             <input type="text" id="username" placeholder="username" name="user">
+        </div>
+        <br>
+
+        <div>
+            <label for="password"> enter password :</label>
+            <input type="password" id="password" placeholder="password" name="pass">
+        </div>
+        <BR>
+
+        <div>
+          <label for="age"> enter your age</label>
+           <input type="number" id="age" placeholder="age" name="age">
+        </div>
+         <br>
+
+        <button type="submit"> submit</button>
+        <button type="button"> do something</button>
+        <button type="reset">  reset data</button>
+        <br>
+
+        <!-- button using input-->
+        <input type="button" value="click me">
+        <input type="submit">
+
+</form>
+
+<!-- paste any site url eg yt -->
+<hr>
+   <form action="https://www.google.com/search">
+          <label for="google serach"> search 
+          </label>
+           <input type="text" id="google search" placeholder="search" name="apple">
+        </div>
+         <br>
+
+        <button type="submit"> search</button>
+
+
+   </form>
+
+   <hr>
+   <form action="/server">
+    <!--checkbox-->
+
+
+    <label for="age">I am 18+</label>
+    <input type="checkbox" id="age" name="age" checked/>
+    <button > submit</button>
+
+
+    <!-- radio-->
+    <div>
+        choose one fruuit
+
+        <input type="radio" id="apple" name="fruit" value="apple">
+        <label for="apple" > apple </label>
+        <input type="radio" id="bnana" name="fruit" value="bnana">
+        <label for="bnana" > bnana </label>
+        <input type="radio" id="orange" name="fruit" value="orange">
+        <label for="orange" > orange </label>
+        <button>submit</button>
+    </div>
+<!-- checkboxes--can select many options-->
+         <Div>
+            select your subjects
+
+            <input type="checkbox" id="mathematics" name="subject" value="math">
+        <label for="mathematics" > mathematics </label>
+        <input type="checkbox" id="science" name="subject" value="sci">
+        <label for="science" > science </label>
+        <input type="checkbox" id="german" name="subject" value="deutsch">
+        <label for="german" > german </label>
+        <button>submit</button>
+
+         </Div>
+
+         <!--select element-->
+
+         <div>
+            choose your profession
+            <Select name="profession" id="profession">
+                <option value="stu">student</option>
+                <option value="dev"> developer</option> <!-- url is profession= stu-->
+            </Select>
+
+         </div>
+
+         <div>
+            <label for="vol"> volume</label>
+            <input type="range" id="vol" min="0" max="100" name="volume" step="10" value="10">
+
+         </div>
+
+         <!-- text area-->
+         <div>
+            <label for="feedback"> please probvid3 your valuable feedback</label>
+            <textarea id="feedback" name="feedback" rows="10" columns="10"></textarea>
+            <button> submit </button>
+
+
+         </div>
+
+
+    
+
+
+   </form>
+    
+</body>
+</html>

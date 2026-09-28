@@ -1,0 +1,22 @@
+#container{
+    height:500px;
+    width:80%; /*relaive to body*/
+    background-color:azure;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex; /*to fit all div in container ,direction will be in a row*/
+    flex-direction:row;/* set direction of boxes from here*/
+    justify-content:flex-start;/*align the main axis boxes from where */
+    flex-wrap:wrap-reverse;/* items forced onto one or or can wrap in multiple lines*/
+}
+h1{
+    text-align:center;
+}
+#container div{
+    height:100PX;
+    width:300px;
+    color:white;
+    text-align:center;
+    font-size:1.5em;
+
+}

@@ -1,0 +1,35 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+html,body{
+    height:100%;
+    width:100%;
+
+}
+body{
+    background-color:black; 
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:20px;
+}
+#box1{ 
+    background-color: azure;
+    height:200px;
+    width:200px;
+}
+#box2,#box3{
+    background-color:antiquewhite;
+    height:200px;
+    width:200px;
+    text-align: center;
+    border-style: double;
+    border-radius: 50%;
+    border-color: blueviolet;
+    border-width: 10px;
+
+
+
+}
+
